@@ -24,13 +24,13 @@ chmod +x pip_install.sh
 !apt-get install dos2unix
 
 # Convert file format from Windows (CRLF) to Unix (LF)
-!dos2unix install_packages.sh
+!dos2unix pip_install_c.sh
 
 # Make the script executable
-!chmod +x install_packages.sh
+!chmod +x pip_install_c.sh
 
 # Run the script
-!./install_packages.sh
+!./pip_install_c.sh
 
 ```
 
