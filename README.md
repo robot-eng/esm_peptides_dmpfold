@@ -10,6 +10,8 @@
 ```
 .\pip_install.bat
 ```
+> :warning: **Warning** : Windows should use wsl and install cuda and cudnn.
+
 ### ubuntu / Linux
 ```
 chmod +x pip_install.sh
