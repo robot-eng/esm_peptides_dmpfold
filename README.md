@@ -1,9 +1,9 @@
 # ESM
 ## The python instructions on the computer/notebook should be as follows:
 ```cmd
-pip install virtualenv
-python -m venv venv 
-venv\Scripts\activate
+$pip install virtualenv
+$python -m venv venv 
+$venv\Scripts\activate
 ```
 ## Type error 
 ```
