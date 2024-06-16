@@ -12,5 +12,9 @@ ModuleNotFoundError: No module named 'torch._six'
 ```
 ## modify
 ```
-from torch._six import inf to from torch import inf
+from torch._six import inf  
+```
+to
+```
+from torch import inf
 ```
