@@ -1,5 +1,6 @@
 # ESM
 ## Ref: https://github.com/facebookresearch/esm
+![image](https://github.com/robot-eng/esm/assets/79349006/2e7104c3-e586-433f-ba6b-fc08e3e27ff8)
 ## The python instructions on the computer/notebook should be as follows:
 ```cmd
 $pip install virtualenv
