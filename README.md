@@ -1,6 +1,35 @@
 # ESM
 ## Ref: https://github.com/facebookresearch/esm
-![image](https://github.com/robot-eng/esm/assets/79349006/2e7104c3-e586-433f-ba6b-fc08e3e27ff8)
+
+## Pip install
+### windows
+```
+.\pip_install.bat
+```
+### ubuntu / Linux
+```
+chmod +x pip_install.sh
+
+./pip_install.sh
+```
+### Colab and ubuntu / Linux
+```colab
+# Install dos2unix tool
+!apt-get install dos2unix
+
+# Convert file format from Windows (CRLF) to Unix (LF)
+!dos2unix install_packages.sh
+
+# Make the script executable
+!chmod +x install_packages.sh
+
+# Run the script
+!./install_packages.sh
+
+```
+<p align="center">
+  <img src="https://th.bing.com/th/id/R.492d8ce81dda15d5bd1b9543e14d7576?rik=%2bBTSDBOdKUyOOg&riu=http%3a%2f%2ffiles.abovetopsecret.com%2ffiles%2fimg%2fte566e15d5.gif&ehk=YkaOSAsr%2bjwlj7F3n96fIIpZOsMPPnSW1nz%2fvC3wn7M%3d&risl=&pid=ImgRaw&r=0" />
+</p>
 
 ## Set up openfold for Create environment
 
