@@ -26,7 +26,7 @@ Activate the environment, e.g `conda activate openfold_env`
 
 `scripts/install_third_party_dependencies.sh`
 
-Prepend the conda environment to the $LD_LIBRARY_PATH., e.g. export $LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH. You may optionally set this as a conda environment variable according to the conda docs to activate each time the environment is used.
+Prepend the conda environment to the `$LD_LIBRARY_PATH`., e.g. `export $LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH`. You may optionally set this as a conda environment variable according to the conda docs to activate each time the environment is used.
 
 Download parameters. We recommend using a destination as openfold/resources as our unittests will look for the weights there.
 
