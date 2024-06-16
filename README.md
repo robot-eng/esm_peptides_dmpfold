@@ -23,7 +23,7 @@ chmod +x pip_install.sh
 # Install dos2unix tool
 !apt-get install dos2unix
 
-# Convert file format from Windows (CRLF) to Unix (LF)
+# Convert file format
 !dos2unix pip_install_c.sh
 
 # Make the script executable
