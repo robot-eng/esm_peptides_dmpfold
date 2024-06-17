@@ -5,7 +5,7 @@
     <img src="https://th.bing.com/th/id/R.492d8ce81dda15d5bd1b9543e14d7576?rik=%2bBTSDBOdKUyOOg&riu=http%3a%2f%2ffiles.abovetopsecret.com%2ffiles%2fimg%2fte566e15d5.gif&ehk=YkaOSAsr%2bjwlj7F3n96fIIpZOsMPPnSW1nz%2fvC3wn7M%3d&risl=&pid=ImgRaw&r=0">
 </p>
 
-## Pip install
+## Pip install LiBRARY
 ### windows
 ```
 .\pip_install.bat
@@ -92,7 +92,7 @@ Alphafold Comparison tests: Certain tests perform equivalence comparisons with t
 To use OpenFold on CUDA 12 environment rather than a CUDA 11 environment. In step 1, use the branch pl_upgrades rather than the main branch, i.e. replace the URL in step 1 with `https://github.com/aqlaboratory/openfold/tree/pl_upgrades` Follow the rest of the steps of Installation Guide
 
 ### MPI
-To use OpenFold with MPI support, you will need to add the package mpi4py. This can be done with pip in your OpenFold environment, e.g. $ pip install mpi4py.
+To use OpenFold with MPI support, you will need to add the package mpi4py. This can be done with pip in your OpenFold environment, e.g. `$ pip install mpi4py`.
 
 ### Install OpenFold parameters without aws
 If you don’t have access to aws on your system, you can use a different download source:
