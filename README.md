@@ -38,7 +38,7 @@ chmod +x pip_install.sh
 !apt-get install texlive texlive-xetex texlive-latex-extra pandoc
 !pip install pypandoc
 # and
-!jupyter nbconvert --to pdf --output result.pdf /location_file/file.ipynb
+!jupyter nbconvert --to pdf --output name.pdf /location_file/file.ipynb
 ```
 ## Set up openfold for Create environment
 
