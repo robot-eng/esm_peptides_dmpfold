@@ -62,5 +62,5 @@ Tryptophan     108    137       96      0.077   0.013   0.064   0.167
 Tyrosine        69    147      114      0.082   0.065   0.114   0.125
 Valine         106    170       50      0.062   0.048   0.028   0.053
 """
-
+#Call parameter
 parser = ChouFasmanParser(chou_fasman_table)
