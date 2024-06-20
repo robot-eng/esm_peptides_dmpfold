@@ -24,6 +24,7 @@ fi
 # List of packages to install
 PACKAGES=(
   "fair-esm"
+  "pepdata"
   "torch"
   "torchvision"
   "torchaudio"
