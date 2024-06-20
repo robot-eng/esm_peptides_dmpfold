@@ -6,7 +6,7 @@
 </p>
 
 ## Pip install LiBRARY
->:note: **Note** : Main LiBRARY 1.esm 2.pepdata
+>🧾 **Note** : Main LiBRARY 1.esm 2.pepdata
 ### windows
 ```
 .\pip_install.bat
