@@ -16,7 +16,7 @@ class surface_area_Analysis:
         self.list_amino = []
         self.list_surface_area = []
         for x_l in seq:
-            self.list_amino.append(x)
+            self.list_amino.append(x_l)
             self.list_surface_area.append(amino_acid_properties.accessible_surface_area.get(x_l, "Unknown"))
         return f'Amino_acids: {self.list_amino}, Surface_areas: {self.list_surface_area}'
     
