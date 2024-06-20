@@ -1,6 +1,6 @@
 from pepdata import amino_acid_properties
 
-class ProteinAnalysis:
+class surface_area_Analysis:
     def __init__(self):
         self.list_amino = []
         self.list_surface_area = []
