@@ -1,4 +1,4 @@
-# ESM
+# ESM / Peptides
 ## Ref: https://github.com/facebookresearch/esm
 
 <p align="center">
