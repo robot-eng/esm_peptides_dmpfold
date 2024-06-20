@@ -1,11 +1,12 @@
 # ESM / Peptides
-## Ref: https://github.com/facebookresearch/esm
+## Ref: https://github.com/facebookresearch/esm, https://github.com/openvax/pepdata
 
 <p align="center">
     <img src="https://th.bing.com/th/id/R.492d8ce81dda15d5bd1b9543e14d7576?rik=%2bBTSDBOdKUyOOg&riu=http%3a%2f%2ffiles.abovetopsecret.com%2ffiles%2fimg%2fte566e15d5.gif&ehk=YkaOSAsr%2bjwlj7F3n96fIIpZOsMPPnSW1nz%2fvC3wn7M%3d&risl=&pid=ImgRaw&r=0">
 </p>
 
 ## Pip install LiBRARY
+>:note: **Note** : Main LiBRARY 1.esm 2.pepdata
 ### windows
 ```
 .\pip_install.bat
