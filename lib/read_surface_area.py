@@ -1,14 +1,27 @@
-from pepdata import amino_acid_properties,amino_acid,amino_acid_alphabet
-# isoforms of two different proteins a, b
-def line_sp(seq):
-    for x in seq:
-        a = (amino_acid_properties.accessible_surface_area.get(x))
-        print(f'Amino_acid: {x} and Surface_area {a}')
-    return "-----------end-----------------"
-def list_sp(seq):
-    list_amino = []
-    list_surface_area = []
-    for x in seq:
-        list_amino.append(x)
-        list_surface_area.append(amino_acid_properties.accessible_surface_area.get(x))
-    return(f'Amino_acid: {list_amino},and Surface_area {list_surface_area}')
+from pepdata import amino_acid_properties
+
+class ProteinAnalysis:
+    def __init__(self):
+        self.list_amino = []
+        self.list_surface_area = []
+        self.dict_surface_area = {}
+        
+    def p_line_sp(self, seq):
+        for x in seq:
+            self.surface_area = amino_acid_properties.accessible_surface_area.get(x, "Unknown")
+            print(f'Amino acid: {x} and Surface area: {self.surface_area}')
+        return "-----------end-----------------"
+
+    def list_sp(self, seq):
+        self.list_amino = []
+        self.list_surface_area = []
+        for x in seq:
+            self.list_amino.append(x)
+            self.list_surface_area.append(amino_acid_properties.accessible_surface_area.get(x, "Unknown"))
+        return f'Amino_acids: {self.list_amino}, Surface_areas: {self.list_surface_area}'
+    
+    def dictv_sp(self, seq):
+        self.dict_surface_area = {}
+        for x in seq:
+            self.dict_surface_area[x] = amino_acid_properties.accessible_surface_area.get(x, "Unknown")
+        return self.dict_surface_area
