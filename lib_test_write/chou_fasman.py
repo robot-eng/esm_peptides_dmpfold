@@ -64,3 +64,4 @@ Valine         106    170       50      0.062   0.048   0.028   0.053
 """
 #Call parameter
 parser = ChouFasmanParser(chou_fasman_table)
+# parser.alpha_helix_score_dict
