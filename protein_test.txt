@@ -1,0 +1,3 @@
+Alanine,Alanine,Alanine,Alanine,Alanine,Leucine,Alanine,Serine,Glutamine
+Leucine,Alanine,Serine,Glutamine
+Alanine,Alanine,Alanine,Alanine,Leucine,Serine
