@@ -7,7 +7,7 @@ if %errorlevel% neq 0 (
 )
 
 :: List of packages to install
-set PACKAGES=fair-esm torch torchvision torchaudio git+https://github.com/facebookresearch/esm.git "fair-esm[esmfold]" modelcif biotite dllogger@ git+https://github.com/NVIDIA/dllogger.git git+https://github.com/aqlaboratory/openfold.git@3bec3e9b2d1e8bdb83887899102eff7d42dc2ba9 pepdata
+set PACKAGES=fair-esm torch torchvision torchaudio git+https://github.com/facebookresearch/esm.git "fair-esm[esmfold]" modelcif biotite 'dllogger@ git+https://github.com/NVIDIA/dllogger.git' git+https://github.com/aqlaboratory/openfold.git@3bec3e9b2d1e8bdb83887899102eff7d42dc2ba9 pepdata
 
 :: Install each package
 for %%P in (%PACKAGES%) do (
