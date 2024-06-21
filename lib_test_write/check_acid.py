@@ -8,3 +8,10 @@ def decode_amino_acids(code):
                 decoded.append(name)
                 break
     return decoded
+
+def encode_amino_acids(names):
+    encoded = []
+    for name in names:
+        if name in combined_dict:
+            encoded.append(combined_dict[name])
+    return encoded
