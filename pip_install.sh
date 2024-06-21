@@ -32,7 +32,7 @@ PACKAGES=(
   "fair-esm[esmfold]"
   "modelcif"
   "biotite"
-  "dllogger @ git+https://github.com/NVIDIA/dllogger.git"
+  "'dllogger@ git+https://github.com/NVIDIA/dllogger.git'"
   "git+https://github.com/aqlaboratory/openfold.git@3bec3e9b2d1e8bdb83887899102eff7d42dc2ba9"
 )
 
