@@ -37,5 +37,5 @@ class ChouFasmanParser:
 # Define chou_fasman_table directly in this module
 #Call parameter
 parser = ChouFasmanParser(chou_fasman.chou_fasman_table)
-
-
+# Example
+# parser.alpha_helix_score_dict[aa] for aa in protein_sequence
