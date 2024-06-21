@@ -16,7 +16,7 @@ class AminoAcidFileProcessor:
                 self.lens = f.tell()
             # Process the file's content line by line.
             for line in content:
-                self.data_txt.append(line.strip().split(self.delimiter)) #self.delimiter symbol to split ( Alanine,Alanine,Alanine = ['Alanine','Alanine','Alanine'])
+                self.data_txt.append(line.strip().split(self.delimiter)) #self.delimiter symbol and space to split ( Alanine,Alanine,Alanine = ['Alanine','Alanine','Alanine'])
                 self.all_lines.append(line.strip()) # read data in .txt output data this is list.
 # Example
 # from resr import AminoAcidFileProcessor
