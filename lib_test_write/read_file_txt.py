@@ -17,7 +17,7 @@ class AminoAcidFileProcessor:
             # Process the file's content line by line.
             for line in content:
                 self.data_txt.append(line.strip().split(self.delimiter)) #self.delimiter symbol to split ( Alanine,Alanine,Alanine = ['Alanine','Alanine','Alanine'])
-                self.all_lines.append(line.strip()) # read data in .txt output data this is list.
+                self.all_lines.append(line.strip()) # read data in .txt output data this is list ['Alanine','Alanine','Alanine'].
 # Example
 # from localtion.namefile import AminoAcidFileProcessor
 # processor = AminoAcidFileProcessor("data.txt", ",")
