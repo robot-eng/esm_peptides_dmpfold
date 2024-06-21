@@ -7,7 +7,6 @@ class AminoAcidFileProcessor:
         self.data_txt = []
         self.all_lines = []
         self.lens=""
-        self.cons=""
         if not os.path.isfile(self.filename):
             print('File does not exist.')
         else:
@@ -15,7 +14,6 @@ class AminoAcidFileProcessor:
             with open(self.filename,'r') as f:
                 content = f.read().splitlines()
                 self.lens = f.tell()
-                self.cons = f.read()
             # Process the file's content line by line.
             for line in content:
                 self.data_txt.append(line.strip().split(self.delimiter)) #self.delimiter symbol to split ( Alanine,Alanine,Alanine = ['Alanine','Alanine','Alanine'])
