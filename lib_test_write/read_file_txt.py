@@ -19,7 +19,7 @@ class AminoAcidFileProcessor:
                 self.data_txt.append(line.strip().split(self.delimiter)) #self.delimiter symbol to split ( Alanine,Alanine,Alanine = ['Alanine','Alanine','Alanine'])
                 self.all_lines.append(line.strip()) # read data in .txt output data this is list.
 # Example
-# from resr import AminoAcidFileProcessor
+# from localtion.namefile import AminoAcidFileProcessor
 # processor = AminoAcidFileProcessor("data.txt", ",")
 # for x in processor.data_txt:
 #     print(encode_amino_acids(x))
