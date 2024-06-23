@@ -6,7 +6,7 @@
 </p>
 
 ## Pip install LiBRARY
->🧾 **Note** : Main LiBRARY 1.esm 2.pepdata
+>🧾 **Note** : Main LiBRARY 1.esm 2.pepdata 3.SidechainNet 4.pdbtools [5.pyrosetta](https://rosettacommons.github.io/PyRosetta.notebooks/)
 ### windows
 ```
 .\pip_install.bat
