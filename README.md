@@ -7,20 +7,25 @@
 
 ## Pip install LiBRARY
 >🧾 **Note** : Main LiBRARY 1.esm 2.pepdata 3.SidechainNet 4.pdbtools [5.pyrosetta](https://rosettacommons.github.io/PyRosetta.notebooks/)
-### windows
+
+> 📂 **file** : 
+>- [facebookresearch:esm](https://github.com/facebookresearch/esm), [openvax:pepdata](https://github.com/openvax/pepdata) `esm/pepdata` esm.ipynb, ESM_T4_low_mem.ipynb, esm_structural_dataset.ipynb.ipynb, Inverse_Folding_with_ESM_IF1.ipynb
+>- [THGLab:int2cart](https://github.com/THGLab/int2cart) `SidechainNet, pdbtools, pyrosetta` 5jmb_processed.ipynb
+
+### windows `esm & pepdata`
 ```
-.\pip_install.bat
+.\pip_install.bat 
 ```
 > :warning: **Warning** : Windows should use wsl and install cuda and cudnn.
 
-### ubuntu / Linux
+### ubuntu / Linux `esm & pepdata`
 ```
-chmod +x pip_install.sh
+chmod +x pip_install.sh 
 
 ./pip_install.sh
 ```
-### Colab and ubuntu / Linux
-```colab
+### Colab and ubuntu / Linux `esm & pepdata`
+```colab 
 # Install dos2unix tool
 !apt-get install dos2unix
 
@@ -110,13 +115,15 @@ If you don’t have access to aws on your system, you can use a different downlo
 
 ## The python instructions on the computer/notebook should be as follows:
 ```cmd
-$pip install virtualenv
-$python -m venv venv 
-$venv\Scripts\activate
+pip install virtualenv
+
+python -m venv venv 
+
+venv\Scripts\activate
 ```
 ## Type error 
 ```
-/usr/local/lib/python3.10/dist-packages/deepspeed/runtime/utils.py and /usr/local/lib/python3.10/dist-packages/deepspeed/runtime/zero/stage_1_and_2.py 
+⚠️ /usr/local/lib/python3.10/dist-packages/deepspeed/runtime/utils.py and /usr/local/lib/python3.10/dist-packages/deepspeed/runtime/zero/stage_1_and_2.py 
 ModuleNotFoundError: No module named 'torch._six'
 ```
 ## modify
