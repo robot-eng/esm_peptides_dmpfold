@@ -11,9 +11,9 @@
 >🧾 **Note** : Main LiBRARY 1.esm 2.pepdata 3.SidechainNet 4.pdbtools [5.pyrosetta](https://rosettacommons.github.io/PyRosetta.notebooks/) 6.dmpfold
 
 > 📂 **file** : 
->- [facebookresearch:esm](https://github.com/facebookresearch/esm), [openvax:pepdata](https://github.com/openvax/pepdata) `esm/pepdata` esm.ipynb, ESM_T4_low_mem.ipynb, esm_structural_dataset.ipynb.ipynb, Inverse_Folding_with_ESM_IF1.ipynb
->- [THGLab:int2cart](https://github.com/THGLab/int2cart) `SidechainNet, pdbtools, pyrosetta` 5jmb_processed.ipynb
->- [dmpfold](https://github.com/psipred/DMPfold2) `dmpfold` Read : [README](https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/README.md)
+>- [facebookresearch:esm](https://github.com/facebookresearch/esm), [openvax:pepdata](https://github.com/openvax/pepdata) `esm/pepdata` in code folder : esm.ipynb, ESM_T4_low_mem.ipynb, esm_structural_dataset.ipynb.ipynb, Inverse_Folding_with_ESM_IF1.ipynb
+>- [THGLab:int2cart](https://github.com/THGLab/int2cart) `SidechainNet, pdbtools, pyrosetta` in code folder : 5jmb_processed.ipynb
+>- [dmpfold](https://github.com/psipred/DMPfold2) `dmpfold` Read : [README](https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/README.md) in dmpfold_New_python3 folder : dmpfold.ipynb
 ### Show file.pdb
 
 [[README]](https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/README.md)
