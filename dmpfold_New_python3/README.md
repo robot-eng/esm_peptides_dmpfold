@@ -37,7 +37,7 @@ view.zoomTo()
 view.show()
 ```
 
-<img src="Media.gif" width="50%" height="50%" />
+<img src="Media.gif" />
 
 ### 4. Show model 3D file.pdb 'stick'
 ```python
@@ -58,7 +58,7 @@ def visualize_pdb(file_path):
 file_path = '/content/DMPfold2/dmpfold/example/seq.pdb'
 visualize_pdb(file_path)
 ```
-<img src="Media3.gif" width="50%" height="50%" />
+<img src="Media3.gif" />
 
 ### 5. Show model 3D file.pdb 'Ball-stick'
 ```python
@@ -81,7 +81,7 @@ def visualize_pdb(file_path):
 file_path = '/content/DMPfold2/dmpfold/example/seq.pdb'
 visualize_pdb(file_path)
 ```
-<img src="Media2.gif" width="50%" height="50%" />
+<img src="Media2.gif" />
 
 ># Example customizations
 - viewer.setStyle({'cartoon': {'color': 'spectrum'}})  # Cartoon representation with spectrum coloring
