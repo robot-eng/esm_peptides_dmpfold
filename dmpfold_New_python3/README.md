@@ -1,6 +1,6 @@
 # dmpfold
 - Ref: https://github.com/psipred/DMPfold2.git
->📖 Using in python 3.8+ by normal dmpfold will using in Python 3.6 or later is required because it will have to use tensorflow version 1.19- otherwise error 
+>📖 Using in python 3.8+ by normal dmpfold will using in Python 3.6 or later is required because it will have to use tensorflow version 1.19- otherwise error such as tensorflow 2.15.0 in colab
 
 ### 1. Fix error of tensorflow new
 - Rename file fix_network.py to network.py
