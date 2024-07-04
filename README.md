@@ -15,7 +15,14 @@
 >- [THGLab:int2cart](https://github.com/THGLab/int2cart) `SidechainNet, pdbtools, pyrosetta` 5jmb_processed.ipynb
 >- [dmpfold](https://github.com/psipred/DMPfold2) `dmpfold` Read : https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/README.md
 ### Show file.pdb
+
 https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/README.md
+
+Example
+
+<img src="https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/Media.gif" width="50%">
+<img src="https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/Media2.gif" width="50%">
+<img src="https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/Media3.gif" width="50%">
 ### windows `esm & pepdata`
 ```
 .\pip_install.bat 
