@@ -20,8 +20,7 @@ https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/
 
 Example
 
-<img src="https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/Media.gif" width="30%">
-<img src="https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/Media2.gif" width="30%">
+<img src="https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/Media.gif" width="50%"><img src="https://github.com/robot-eng/esm_peptides_dmpfold/blob/main/dmpfold_New_python3/Media2.gif" width="50%">
 
 ### windows `esm & pepdata`
 ```
