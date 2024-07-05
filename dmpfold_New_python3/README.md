@@ -3,7 +3,7 @@
 >📖 Using in python 3.8+ by normal dmpfold will using in Python 3.6 because it will have to use tensorflow version 1.19- otherwise error such as tensorflow 2.15.0 in colab
 
 ### 1. Fix error of tensorflow new
-- Rename file fix_network.py to network.py
+- Rename file fix_network.py to network.py or copy text in fix_network.py replace in /usr/local/lib/python3.10/dist-packages/dmpfold/network.py
 and
 ```cmd
 % example
