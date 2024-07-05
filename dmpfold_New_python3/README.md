@@ -4,7 +4,6 @@
 
 ### 1. Fix error of tensorflow new
 - Rename file fix_network.py to network.py or copy text in fix_network.py replace in /usr/local/lib/python3.10/dist-packages/dmpfold/network.py
-and
 ```cmd
 % example
 sudo rm -rf /usr/local/lib/python3.10/dist-packages/dmpfold/network.py
